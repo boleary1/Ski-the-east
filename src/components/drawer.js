@@ -1,4 +1,6 @@
 import React from 'react';
+import SkiMountainWeather from './locationDisplay'
+
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -140,6 +142,7 @@ function ResponsiveDrawer(props) {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
+        <SkiMountainWeather />
         <Typography paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
