@@ -59,11 +59,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SkiMountainWeather() {
     const classes = useStyles();
-console.log(queryUrl)
+    console.log(queryUrl.name)
     return (
         <div className={classes.root}>
 
-                        <h1 className={classes.title}>Full Stack Web Developer</h1>
+            <h1 className={classes.title}>Full Stack Web Developer</h1>
         </div>
     );
 }
