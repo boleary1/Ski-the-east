@@ -59,11 +59,32 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SkiMountainWeather() {
     const classes = useStyles();
-    console.log(queryUrl.name)
+    console.log(queryUrl)
     return (
         <div className={classes.root}>
 
             <h1 className={classes.title}>Full Stack Web Developer</h1>
         </div>
     );
-}
+};
+
+render(); {
+    return (
+      <div>
+        <Get url= {queryUrl}>
+          {(error, response, isLoading, makeRequest, axios) => {
+            if(error) {
+              return (<div>Something bad happened: {error.message} <button onClick={() => makeRequest({ params: { reload: true } })}>Retry</button></div>)
+            }
+            else if(isLoading) {
+              return (<div>Loading...</div>)
+            }
+            else if(response !== null) {
+              return (<div>{response.data.message} <button onClick={() => makeRequest({ params: { refresh: true } })}>Refresh</button></div>)
+            }
+            return (<div>Default message before request is made.</div>)
+          }}
+        </Get>
+      </div>
+    )
+  };
