@@ -1,3 +1,9 @@
+# BO tips
+-using CW-19-1-20
+-having issue with axios call
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
