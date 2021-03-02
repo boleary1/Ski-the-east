@@ -1,6 +1,7 @@
 # BO tips
 -using CW-19-1-20
 -having issue with axios call
+-add ski mountains
 
 
 
