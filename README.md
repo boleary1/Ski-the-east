@@ -2,7 +2,7 @@
 -using CW-19-1-20
 -having issue with axios call
 -add ski mountains
-
+-people search mountains maybe?
 
 
 # Getting Started with Create React App
