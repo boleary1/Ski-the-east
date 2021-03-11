@@ -2,7 +2,8 @@
 -using CW-19-1-20
 -having issue with axios call
 -add ski mountains
-
+-Api get data
+commit
 
 # Getting Started with Create React App
 
